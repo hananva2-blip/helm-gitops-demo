@@ -1,4 +1,3 @@
-cat <<EOF > charts/myapp/values-dev.yaml
 replicaCount: 1
 
 image:
@@ -8,4 +7,3 @@ image:
 service:
   type: ClusterIP
   port: 80
-EOF

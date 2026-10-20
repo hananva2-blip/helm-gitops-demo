@@ -1,5 +1,4 @@
-cat <<EOF > charts/myapp/values-dev.yaml
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: nginx
@@ -8,4 +7,3 @@ image:
 service:
   type: ClusterIP
   port: 80
-EOF
